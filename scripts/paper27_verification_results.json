@@ -1,0 +1,84 @@
+{
+  "M_STAR_GeV": 1.406034389613687e+18,
+  "LHAASO_lin_violation_ratio_3D_K4": 86.83215054699211,
+  "WF4_order": 1152,
+  "dim_inv_B4_r1_to_6": [
+    0,
+    1,
+    0,
+    4,
+    0,
+    31
+  ],
+  "dim_inv_WF4_r1_to_6": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    16
+  ],
+  "dim_inv_O4_r1_to_6": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    15
+  ],
+  "max_pin4_overlap_covariance_err": 1.5612511283791264e-15,
+  "triangular_plaquettes_per_site": 32,
+  "loop1_rel_anisotropy_p2": 4.4180838674592576e-16,
+  "loop1_rel_anisotropy_p4": 5.43245531988282e-16,
+  "LHAASO_d8_dvg_over_c": 6.715003709442397e-56,
+  "LHAASO_d8_dt_sec": 6.021446203967755e-39,
+  "GZK_d8_dvg_over_c": 6.396703731750493e-29,
+  "D4_BZ_total_zeros": 40,
+  "D4_doubler_Chat_values": [
+    8.0,
+    9.3333,
+    10.6667
+  ],
+  "dS_sigma25": 4.020340600825019,
+  "dS_sigma100": 4.005036003720871,
+  "s_worst_dip": 2.961137871643654,
+  "min_lambda_parallel": 0.9411916853224442,
+  "director_stueckelberg_lorenz": {
+    "f_dir_GeV": 31959000000000.0,
+    "c_acc": 1.7221589089878451e-10,
+    "c_2": 1.7221589095810114e-10,
+    "c_S2": 1.0,
+    "UHECR_Cherenkov_dE_over_E": 0.0,
+    "alpha1_PPN": -6.888635635951381e-10,
+    "alpha2_PPN": 0.0,
+    "dG_cosmo_over_GN": 3.4443178179756903e-10,
+    "SM_1loop_bumblebee_LIV": 1.8781346161901707e-22,
+    "sturm_liouville_baryonic_shells": {
+      "Earth (1 M_earth)": {
+        "eps_rel_max": 3.629449913189699e-15,
+        "K_aa_min": 1.7221589091361366e-10,
+        "abs_det_H4_min": 15.999999998622274
+      },
+      "Sun (1 M_sun)": {
+        "eps_rel_max": 2.094272343064839e-12,
+        "K_aa_min": 1.7221589091361315e-10,
+        "abs_det_H4_min": 15.999999998622274
+      },
+      "SPARC Disk (M_b = 10^11 M_sun)": {
+        "eps_rel_max": 6.622670644782428e-07,
+        "K_aa_min": 1.721643045346842e-10,
+        "abs_det_H4_min": 15.999999998624753
+      },
+      "X-COP Cluster Core (M_b = 3e13 M_sun)": {
+        "eps_rel_max": 1.1470802038558103e-05,
+        "K_aa_min": 1.5673997723440773e-10,
+        "abs_det_H4_min": 15.999999999366258
+      },
+      "Extreme Cluster Limit (M_b = 2e14 M_sun)": {
+        "eps_rel_max": 2.9617483508651744e-05,
+        "K_aa_min": 6.90431330387621e-11,
+        "abs_det_H4_min": 16.00000000358217
+      }
+    }
+  }
+}
