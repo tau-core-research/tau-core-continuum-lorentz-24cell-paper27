@@ -1,0 +1,26 @@
+{
+  "scope": "scalar site reflection only; no interacting gauge or chiral theorem",
+  "numpy": "2.2.6",
+  "reduced_angular_gap": {
+    "0.5": 0.0003445189478945565,
+    "0.25": 0.0003465446421557772,
+    "0.125": 0.0003470527162789949
+  },
+  "gap_limit": 0.00034722222222222224,
+  "stable_bad_bond_reflected_covariance": -0.125,
+  "gaussian_dirichlet": [
+    {
+      "sites": 41,
+      "mass": 0.5,
+      "min_reflected_eigenvalue": -3.588751268871593e-19,
+      "factorization_residual": 2.3852447794681098e-18
+    },
+    {
+      "sites": 313,
+      "mass": 1.0,
+      "min_reflected_eigenvalue": -1.1750714021862082e-18,
+      "factorization_residual": 6.071532165918825e-18
+    }
+  ],
+  "quartic_three_site_reflected_norm": 0.12352671561988503
+}

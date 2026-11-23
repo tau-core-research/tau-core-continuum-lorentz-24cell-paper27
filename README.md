@@ -3,7 +3,28 @@
 **Author:** Jozsef Olcsak (ORCID: `0009-0003-7311-6522`)  
 **Target Journals:** *Physical Review D* / *Classical and Quantum Gravity* / *Communications in Mathematical Physics*
 
-## Overview
+## 2026-11-23: reflected scalar measure and free angular error (local draft)
+
+The English working manuscript proves site-reflection positivity for the
+specified real nearest-neighbor scalar measure on reflected finite
+Dirichlet domains, including a stable local quartic. There are no bonds
+between strict halves; conditioning on the shared slice gives an exact
+conditional squared norm. The free angular split begins at
+\(a^4|k|^6/2880\) between the displayed two directions, whereas a positive
+quadratic form with a different crossing bond fails reflection positivity.
+This updates the scope of the original overview below; it does not verify
+an interacting gauge or chiral measure, gravity, or interacting continuum.
+
+~~~bash
+python3 -W error scripts/verify_d4_scalar_reflection.py
+~~~
+
+[Strict numerical controls](scripts/d4_scalar_reflection_20261123_strict.json)
+were produced with NumPy 2.2.6 / SciPy 1.15.3. The earlier non-strict
+receipt is retained as technical history. The proof is analytic; the controls
+are not a substitute for it. The original package and its release are frozen.
+
+## Original package overview (historical claims)
 Standalone bilingual (`EN` + `HU`) publication and referee verification package proving:
 1. **Exact Plaquette–Unification Identity:** $\ell_*^2 = 24\pi\ell_P^2 \iff \ell_*^{-1} \equiv M_{\mathrm{Pl}}/\sqrt{3} \equiv M_* = 1.406034\times 10^{18}\;\mathrm{GeV}$.
 2. **Rigid 3D $+K_4$ & $3+1\mathrm{D}$ Crystal No-Go (`Theorem 2.1`):** Excluded by LHAASO GRB 221009A ($86.8\times$), GRB vacuum birefringence ($\sim 10^{15}\times$), and CPSUV 1-loop radiative percolation.
